@@ -1,0 +1,270 @@
+<html>
+    <head>
+        <title>Assignment 4</title>
+        <!--Name: King Yin Pang
+        Student ID: 301268737--> 
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    </head>
+    <body>
+        <div id="form">
+        <fieldset>
+            <header>
+                <a href="https://www.centennialcollege.ca/"><img src="images/Banner.jpg" alt="Evaluation Form"></a>
+                <h1>CENTENNIAL COLLEGE</h1>
+                <h2>Countinuing Education Course/Instructor Evaluation</h2>
+            </header>
+
+            <form name="survey" id="survey" action="mailto:kpang10@mycentennialcollege.ca" method="post">
+                <table>
+                    <tr>
+                        <p>Please read each statement carefully and consider each one individually. Use the <b>computer card</b> to make your
+                        choice (use a pencil in the space). Give only <b>one answer</b> for each question.</p>
+                    </tr>
+
+                    <colgroup>
+                        <col class="col1" width="10%">
+                        <col class="col2" width="45%">
+                        <col class="col3" width="45%">
+                    </colgroup>
+                    <tr>
+                        <td colspan="3"><label for="course-name"><b>Course Name/Code:</b></label>
+                        <input class="course-name"type="text" id="course-name" name="course-name"></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td colspan="2">
+                            <label for="semester"><b>Semester:</b></label>
+                            <input class="sem-fall" type="radio" name="semester" value="fall">Fall
+                            <input class="sem-winter" type="radio" name="semester" value="winter">Winter
+                            <input class="sem-spring" type="radio" name="semester" value="spring/summer">Spring/Summer
+                        </td>
+                        <td>
+                            <label class="yearq"for="year"><b>Year:</b></label>
+                            <input class="year" type="text" id="year" name="year">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3">
+                            <label for="instructor"><b>Instructor:</b></label>
+                            <input class="instructor" type="text" id="instructor" name="instructor">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3">
+                            <p class="heading1">INSTRUCTOR</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <p>How would you rate the instructor's:</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="knowledge">1. <b>knowledge</b> of subject?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input class="excellent" type="radio" name="knowledge" value="excellent">Excellent
+                            <input class="good" type="radio" name="knowledge" value="good">Good
+                            <input class="fair" type="radio" name="knowledge" value="fair">Fair
+                            <input class="notsatisfactory" type="radio" name="knowledge" value="notsatisfactory">Not Satisfactory
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="helpfulness">2. <b>helpfulness</b>?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input class="excellent" type="radio" name="helpfulness" value="excellent">Excellent
+                            <input class="good" type="radio" name="helpfulness" value="good">Good
+                            <input class="fair" type="radio" name="helpfulness" value="fair">Fair
+                            <input class="notsatisfactory" type="radio" name="helpfulness" value="notsatisfactory">Not Satisfactory
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="courtesyandrespect">3. <b>courtesy and respect</b> for all students?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input class="excellent" type="radio" name="courtesyandrespect" value="excellent">Excellent
+                            <input class="good" type="radio" name="courtesyandrespect" value="good">Good
+                            <input class="fair" type="radio" name="courtesyandrespect" value="fair">Fair
+                            <input class="notsatisfactory" type="radio" name="courtesyandrespect" value="notsatisfactory">Not Satisfactory
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="communication">4. <b>communication</b> skills?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input class="excellent" type="radio" name="communication" value="excellent">Excellent
+                            <input class="good" type="radio" name="communication" value="good">Good
+                            <input class="fair" type="radio" name="communication" value="fair">Fair
+                            <input class="notsatisfactory" type="radio" name="communication" value="notsatisfactory">Not Satisfactory
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="performance">5. overall <b>performance</b>?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input class="excellent" type="radio" name="performance" value="excellent">Excellent
+                            <input class="good" type="radio" name="performance" value="good">Good
+                            <input class="fair" type="radio" name="performance" value="fair">Fair
+                            <input class="notsatisfactory" type="radio" name="performance" value="notsatisfactory">Not Satisfactory
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3"><br></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <p class="heading2">COURSE</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="materials">6. How would you rate the <b>course materials</b>?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input class="excellent" type="radio" name="materials" value="excellent">Excellent
+                            <input class="good" type="radio" name="materials" value="good">Good
+                            <input class="fair" type="radio" name="materials" value="fair">Fair
+                            <input class="notsatisfactory" type="radio" name="materials" value="notsatisfactory">Not Satisfactory
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="expectations">7. How much did this course meet your <b>expectations?</b></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input class="excellent" type="radio" name="expectations" value="excellent">Excellent
+                            <input class="good" type="radio" name="expectations" value="good">Good
+                            <input class="fair" type="radio" name="expectations" value="fair">Fair
+                            <input class="notsatisfactory" type="radio" name="expectations" value="notsatisfactory">Not Satisfactory
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="overall">8. How would you rate this course (<b>overall</b>)?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input class="excellent" type="radio" name="overall" value="excellent">Excellent
+                            <input class="good" type="radio" name="overall" value="good">Good
+                            <input class="fair" type="radio" name="overall" value="fair">Fair
+                            <input class="notsatisfactory" type="radio" name="overall" value="notsatisfactory">Not Satisfactory
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3"><br></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <p class="heading3">GENERAL INFORMATION</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <label for="courseoutline">9. Was the <b>course outline</b> reviewed/explained at the beginning of your course?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input class="excellent" type="radio" name="courseoutline" value="excellent">Excellent
+                            <input class="good" type="radio" name="courseoutline" value="good">Good
+                            <input class="fair" type="radio" name="courseoutline" value="fair">Fair
+                            <input class="notsatisfactory" type="radio" name="courseoutline" value="notsatisfactory">Not Satisfactory
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3">
+                            <label for="recommend">10. Would you <b>recommend</b> this course to a friend with the same interests?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input class="excellent" type="radio" name="recommend" value="excellent">Excellent
+                            <input class="good" type="radio" name="recommend" value="good">Good
+                            <input class="fair" type="radio" name="recommend" value="fair">Fair
+                            <input class="notsatisfactory" type="radio" name="recommend" value="notsatisfactory">Not Satisfactory
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3"><br></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <p class="heading4"><font class="anyothercomments">ANY OTHER COMMENTS</font> (please use the back of the computer card or this paper if necessary )</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><label for="bestthing">11. What is the <b>best thing </b>about this course?</label>
+                        <input class="bestthing"type="text" id="bestthing" name="bestthing"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><label for="improve">12. How could we <b>improve</b> this course?</label>
+                        <input class="improve"type="text" id="improve" name="improve"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><label for="other">13. <b>other</b>:</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <textarea class="other" id="other" name="other" rows="4" cols="100"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;" colspan="3">
+                            <button class="button" type="submit">Click to submit</input>
+                            <button class="button" type="reset">Clear Form</input>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <footer>
+                <p><i>Thank you! We pay attention to your feedback!</i></p>
+                <p>
+                    <i>
+                        Web:<a href="https://secure.centennialcollege.ca/webreg/help.do" target="_blank">www.centennialcollege.ca/continuing_education</a>&nbsp&nbsp&nbsp
+                        Email:<a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a>
+                    </i>
+                </p>
+            </footer>
+        </fieldset>
+        </div>
+    </body>
+    
+</html>
